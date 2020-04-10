@@ -6,7 +6,7 @@ Planetary positions are provided from the NASA Jet Propulsion Laboratory's [DE40
 
 Almighty's trajectory was computed by solving [Lambert's Problem](https://en.wikipedia.org/wiki/Lambert%27s_problem). The starting position was Mercury's orbital position at the start of Season of the Worthy (March 10, 2020) and the final position was Earth's orbital position at the end of Season of the Worthy (June 9, 2020).
 
-[This helpful document](ftp://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/pdf/individual_docs/17_frames_and_coordinate_systems.pdf) describes the EME2000 aka J2000 coordinate system.
+[This helpful document](http://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/pdf/individual_docs/17_frames_and_coordinate_systems.pdf) describes the EME2000 aka J2000 coordinate system.
 
 The CSV file contains the data of:
 * Date (Epheremis Time)
