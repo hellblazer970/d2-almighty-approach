@@ -2,11 +2,9 @@
 
 This is the github repo containing the raw data for a trajectory of the Almighty from Mercury to Earth during Destiny 2's Season of the Worthy.
 
-Planetary positions are provided from the NASA Jet Propulsion Laboratory's [DE405 Epheremis](https://ssd.jpl.nasa.gov/?planet_eph_export).
+Planetary positions are provided from the NASA Jet Propulsion Laboratory's [DE405 Epheremis](https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris). Coordinate system is J2000, the same one the planetary positions are defined in.
 
 Almighty's trajectory was computed by solving [Lambert's Problem](https://en.wikipedia.org/wiki/Lambert%27s_problem). The starting position was Mercury's orbital position at the start of Season of the Worthy (March 10, 2020) and the final position was Earth's orbital position at the end of Season of the Worthy (June 9, 2020).
-
-[This helpful document](http://naif.jpl.nasa.gov/pub/naif/toolkit_docs/Tutorials/pdf/individual_docs/17_frames_and_coordinate_systems.pdf) describes the EME2000 aka J2000 coordinate system.
 
 The CSV file contains the data of:
 * Date (Epheremis Time)
