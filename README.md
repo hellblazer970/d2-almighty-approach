@@ -8,7 +8,7 @@ The CSV file contains the data of:
 * Almighty's Relative Distance from Earth (kilometers)
 * Almighty's Relative Velocity to Earth (kilometers per second)
 * Almighty's Trajectory Relative to the Sun in EME2000 Coordinates (kilometers & kilometers per second)
- * X 
+  * X 
  * Y
  * Z
  * DX
