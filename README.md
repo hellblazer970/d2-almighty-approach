@@ -12,7 +12,7 @@ I am not very good at visiualizations. Someone else can probably do a better job
 
 ## Planetary Positions and Trajectory Calculations
 
-Planetary positions are provided from the NASA Jet Propulsion Laboratory's [DE405 Epheremis](https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris). Coordinate system is J2000, the same one the planetary positions are defined in.
+Planetary positions are provided from the NASA Jet Propulsion Laboratory's [DE405 Epheremis](https://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris). Coordinate system is J2000. There are several web-based interfaces to access this data, such as JPL's [Horizons](https://ssd.jpl.nasa.gov/horizons.cgi) or JPL's [WebGeoCalc](https://naif.jpl.nasa.gov/naif/webgeocalc.html). Or, for those who program, you can use the Planetary Data System's [SPICE](https://naif.jpl.nasa.gov/naif/aboutspice.html) API. 
 
 Almighty's trajectory was computed by solving [Lambert's Problem](https://en.wikipedia.org/wiki/Lambert%27s_problem). The starting position was Mercury's orbital position at the start of Season of the Worthy (March 10, 2020) and the final position was Earth's orbital position at the end of Season of the Worthy (June 9, 2020).
 
